@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f6f5f1">
+  <meta name="description" content="Mahathi Panguluri — Computer Science student, problem solver and aspiring Software Development Engineer.">
+  <title>Mahathi Panguluri — Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Inline icon library: no external icon dependency -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="svg-library" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></symbol>
+    <symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="M12 5v14m-7-7 7 7 7-7"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 8-4 4 4 4m8-8 4 4-4 4m-3-11-2 14"/></symbol>
+    <symbol id="i-terminal" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="m7 9 3 3-3 3m6 0h4"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.9-2.7c3-.3 6.2-1.5 6.2-6.7a5.2 5.2 0 0 0-1.4-3.6 4.8 4.8 0 0 0-.1-3.6s-1.2-.4-3.8 1.4a13 13 0 0 0-7 0C5.4 1.1 4.2 1.5 4.2 1.5a4.8 4.8 0 0 0-.1 3.6 5.2 5.2 0 0 0-1.4 3.6c0 5.2 3.2 6.4 6.2 6.7A3.4 3.4 0 0 0 8 18.1V22"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6ZM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 1.9 5.8L20 11l-6.1 2.2L12 19l-2-5.8L4 11l6-2.2L12 3Zm7 12 .9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9L19 15Z"/></symbol>
+    <symbol id="i-graduation" viewBox="0 0 24 24"><path d="m2 10 10-5 10 5-10 5-10-5Zm4 2v5c4 3 8 3 12 0v-5m4-2v6"/></symbol>
+    <symbol id="i-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.7 4 3 9 3s9-1.3 9-3V5M3 12c0 1.7 4 3 9 3s9-1.3 9-3"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></symbol>
+    <symbol id="i-brain" viewBox="0 0 24 24"><path d="M12 18V5a3 3 0 0 0-5.8-1A4 4 0 0 0 4 11a4 4 0 0 0 2 7.5A3 3 0 0 0 12 18Zm0-13a3 3 0 0 1 5.8-1A4 4 0 0 1 20 11a4 4 0 0 1-2 7.5A3 3 0 0 1 12 18m-5-7h5m5 3h-5"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 10 6-10 6L2 9l10-6Zm-10 11 10 6 10-6M2 14l10 6 10-6"/></symbol>
+    <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 9h6v6H9zM9 1v5m6-5v5M9 18v5m6-5v5M1 9h5m-5 6h5m12-6h5m-5 6h5"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="m8.2 13-1 9 4.8-3 4.8 3-1-9"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m18 6-12 12M6 6l12 12"/></symbol>
+    <symbol id="i-location" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+  </svg>
+
+  <div class="background-scene">
+    <div class="ambient ambient-a"></div>
+    <div class="ambient ambient-b"></div>
+    <div class="ambient ambient-c"></div>
+    <div class="grain"></div>
+    <div class="background-grid"></div>
+  </div>
+
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="nav-shell">
+      <a href="#home" class="brand">mahathi<span>.</span></a>
+      <button class="menu-button" id="menuButton" aria-label="Toggle navigation" aria-expanded="false">
+        <svg class="icon"><use href="#i-menu"></use></svg>
+      </button>
+      <div class="nav-menu" id="navMenu">
+        <a href="#about">About</a>
+        <a href="#skills">Expertise</a>
+        <a href="#work">Selected work</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact" class="nav-cta">Let's talk <svg class="icon"><use href="#i-arrow"></use></svg></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero page-wrap" id="home">
+      <div class="hero-copy">
+        <div class="hero-status"><span class="status-light"></span> COMPUTER SCIENCE & ENGINEERING <span class="status-divider">/</span> ASPIRING SDE</div>
+        <p class="hero-overline">HELLO, WORLD. I'M</p>
+        <h1>Mahathi<br><span class="name-accent">Panguluri</span><span class="hero-period">.</span></h1>
+        <div class="hero-subtitle">
+          <span class="subtitle-line"></span>
+          <p>Turning curiosity into <span id="rotatingWord">clean code.</span></p>
+        </div>
+        <p class="hero-intro">
+          A computer science student with a passion for problem-solving,
+          thoughtful engineering, and building digital experiences that
+          make ideas useful.
+        </p>
+        <div class="hero-actions">
+          <a href="#work" class="button button-dark">Explore my work <svg class="icon"><use href="#i-arrow"></use></svg></a>
+          <a href="#contact" class="text-link">Get in touch <svg class="icon"><use href="#i-arrow"></use></svg></a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/Mahathi651" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon"><use href="#i-github"></use></svg></a>
+          <a href="https://www.linkedin.com/in/mahathi-panguluri-chowdary-679606323?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="icon"><use href="#i-linkedin"></use></svg></a>
+          <a href="mailto:vu.241fa04651@gmail.com" aria-label="Email"><svg class="icon"><use href="#i-mail"></use></svg></a>
+          <span class="social-note">FIND ME AROUND THE WEB</span>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="art-label label-top">CREATIVE THINKING <span>✳</span></div>
+        <div class="portrait-frame">
+          <div class="portrait-backdrop"></div>
+          <img src="assets/mahathi-profile.jpeg" alt="Portrait of Mahathi Panguluri" class="portrait">
+          <div class="portrait-index">01 <span>—</span> PROFILE</div>
+        </div>
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="floating-note note-code"><svg class="icon"><use href="#i-code"></use></svg><span>Build with purpose</span></div>
+        <div class="floating-note note-learning"><svg class="icon"><use href="#i-spark"></use></svg><span>Always learning</span></div>
+        <div class="art-label label-bottom">BASED IN ANDHRA PRADESH, INDIA</div>
+      </div>
+      <a href="#about" class="scroll-cue"><span>SCROLL TO EXPLORE</span><svg class="icon"><use href="#i-arrow-down"></use></svg></a>
+    </section>
+
+    <!-- METRICS STRIP -->
+    <section class="metrics page-wrap reveal">
+      <div class="metric">
+        <strong>140<span>+</span></strong>
+        <small>LeetCode problems</small>
+      </div>
+      <div class="metric">
+        <strong>02</strong>
+        <small>Featured projects</small>
+      </div>
+      <div class="metric">
+        <strong>03</strong>
+        <small>Coding platforms</small>
+      </div>
+      <div class="metric metric-note">
+        <span class="metric-star">✳</span>
+        <small>Learning by building,<br>improving every day.</small>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section page-wrap" id="about">
+      <div class="section-top reveal">
+        <span class="section-number">01 / ABOUT</span>
+        <span class="section-aside">A LITTLE CONTEXT</span>
+      </div>
+      <div class="about-layout">
+        <div class="section-heading reveal">
+          <p class="eyebrow">BEHIND THE KEYBOARD</p>
+          <h2>Curious by nature.<br><span>Driven by code.</span></h2>
+        </div>
+        <div class="about-content reveal">
+          <p class="about-lead">I'm Mahathi, a third-year Computer Science and Engineering student at Vignan University.</p>
+          <p class="body-copy">I enjoy exploring how technology works, breaking down challenging problems, and creating applications that solve practical needs. My journey is built around consistent practice—from strengthening data structures and algorithms to developing web applications with Python and Django.</p>
+          <p class="body-copy">I'm working towards becoming a well-rounded software development engineer, with a focus on writing clear code, understanding fundamentals, and learning through real projects.</p>
+          <div class="about-tags">
+            <span><svg class="icon"><use href="#i-code"></use></svg> Problem solving</span>
+            <span><svg class="icon"><use href="#i-brain"></use></svg> Curious mindset</span>
+            <span><svg class="icon"><use href="#i-spark"></use></svg> Continuous learning</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERTISE -->
+    <section class="section page-wrap" id="skills">
+      <div class="section-top reveal">
+        <span class="section-number">02 / EXPERTISE</span>
+        <span class="section-aside">TOOLS & FOUNDATIONS</span>
+      </div>
+      <div class="section-heading reveal">
+        <p class="eyebrow">MY TECHNICAL TOOLKIT</p>
+        <h2>Things I work <span>with.</span></h2>
+        <p class="heading-description">A growing toolkit grounded in programming fundamentals and hands-on development.</p>
+      </div>
+
+      <div class="expertise-grid">
+        <article class="expertise-card reveal">
+          <div class="expertise-top"><span class="expertise-index">01</span><svg class="icon"><use href="#i-code"></use></svg></div>
+          <h3>Programming</h3>
+          <p>Building logical foundations and writing structured programs.</p>
+          <div class="chip-list"><span>Python</span><span>Java</span><span>C</span></div>
+        </article>
+        <article class="expertise-card reveal">
+          <div class="expertise-top"><span class="expertise-index">02</span><svg class="icon"><use href="#i-globe"></use></svg></div>
+          <h3>Web development</h3>
+          <p>Creating responsive interfaces and web application experiences.</p>
+          <div class="chip-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="expertise-card reveal">
+          <div class="expertise-top"><span class="expertise-index">03</span><svg class="icon"><use href="#i-database"></use></svg></div>
+          <h3>Backend & data</h3>
+          <p>Working with application logic, data storage, and queries.</p>
+          <div class="chip-list"><span>Django</span><span>SQL</span><span>SQLite</span></div>
+        </article>
+        <article class="expertise-card reveal">
+          <div class="expertise-top"><span class="expertise-index">04</span><svg class="icon"><use href="#i-cpu"></use></svg></div>
+          <h3>CS fundamentals</h3>
+          <p>Strengthening the concepts behind reliable software.</p>
+          <div class="chip-list"><span>DSA</span><span>OOP</span><span>DBMS</span><span>OS</span><span>CN</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SELECTED WORK -->
+    <section class="section page-wrap" id="work">
+      <div class="section-top reveal">
+        <span class="section-number">03 / SELECTED WORK</span>
+        <span class="section-aside">IDEAS MADE PRACTICAL</span>
+      </div>
+      <div class="section-heading work-heading reveal">
+        <div>
+          <p class="eyebrow">A FEW THINGS I'VE BUILT</p>
+          <h2>Selected <span>work.</span></h2>
+        </div>
+        <p class="heading-description">Projects that reflect my curiosity, learning, and growing development skills.</p>
+      </div>
+
+      <article class="work-card reveal">
+        <div class="work-visual skilltrack-visual">
+          <div class="visual-topline"><span>SKILLTRACK / DASHBOARD</span><span>01 — 02</span></div>
+          <div class="dashboard-ui">
+            <aside class="dash-sidebar"><b>ST.</b><i></i><i></i><i></i><i></i></aside>
+            <div class="dash-main">
+              <div class="dash-heading"><span></span><span></span></div>
+              <div class="dash-cards"><i></i><i></i><i></i></div>
+              <div class="dash-chart"><div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+            </div>
+          </div>
+          <div class="visual-caption">A structured space for tracking growth.</div>
+        </div>
+        <div class="work-description">
+          <div class="work-meta"><span>01 / WEB APPLICATION</span><span>DJANGO · PYTHON</span></div>
+          <h3>SkillTrack Dashboard</h3>
+          <p>A web dashboard designed to help organize skills and monitor learning progress through a structured application interface.</p>
+          <div class="chip-list"><span>Python</span><span>Django</span><span>SQLite</span></div>
+          <a class="work-link" href="https://github.com/Mahathi651" target="_blank" rel="noopener">Explore project <svg class="icon"><use href="#i-arrow"></use></svg></a>
+        </div>
+      </article>
+
+      <article class="work-card work-card-reverse reveal">
+        <div class="work-visual bookverse-visual">
+          <div class="visual-topline"><span>BOOKVERSE / DISCOVERY</span><span>02 — 02</span></div>
+          <div class="book-scene">
+            <div class="book-object book-one"><span>THE ART OF<br>THINKING</span><small>01</small></div>
+            <div class="book-object book-two"><span>DESIGN<br>YOUR DAY</span><small>02</small></div>
+            <div class="book-object book-three"><span>BEYOND<br>THE PAGE</span><small>03</small></div>
+          </div>
+          <div class="visual-caption">A small digital world for book discovery.</div>
+        </div>
+        <div class="work-description">
+          <div class="work-meta"><span>02 / WEB DEVELOPMENT</span><span>DJANGO</span></div>
+          <h3>Bookverse</h3>
+          <p>A book-focused web project exploring application development, content organization, and a user-friendly browsing experience.</p>
+          <div class="chip-list"><span>Python</span><span>Django</span><span>Web development</span></div>
+          <a class="work-link" href="https://github.com/Mahathi651/bookverse-project2" target="_blank" rel="noopener">Explore project <svg class="icon"><use href="#i-arrow"></use></svg></a>
+        </div>
+      </article>
+
+      <p class="project-note"><svg class="icon"><use href="#i-spark"></use></svg> Project visuals are conceptual previews. Open the repositories to explore the actual implementations.</p>
+    </section>
+
+    <!-- CODING -->
+    <section class="section page-wrap" id="coding">
+      <div class="section-top reveal">
+        <span class="section-number">04 / PRACTICE</span>
+        <span class="section-aside">CONSISTENCY OVER EVERYTHING</span>
+      </div>
+      <div class="section-heading reveal">
+        <p class="eyebrow">BEYOND THE CLASSROOM</p>
+        <h2>Learning through <span>practice.</span></h2>
+      </div>
+      <div class="coding-panel reveal">
+        <a href="https://leetcode.com/" target="_blank" rel="noopener" class="coding-item">
+          <div class="coding-brand"><span class="brand-mark leetcode-mark">L</span><span>LeetCode</span></div>
+          <div class="coding-result"><strong>140+</strong><small>Problems solved</small></div>
+          <svg class="icon"><use href="#i-arrow"></use></svg>
+        </a>
+        <a href="https://www.hackerrank.com/" target="_blank" rel="noopener" class="coding-item">
+          <div class="coding-brand"><span class="brand-mark hacker-mark">H</span><span>HackerRank</span></div>
+          <div class="coding-result"><strong>2 stars</strong><small>Python</small></div>
+          <svg class="icon"><use href="#i-arrow"></use></svg>
+        </a>
+        <a href="https://www.codechef.com/" target="_blank" rel="noopener" class="coding-item">
+          <div class="coding-brand"><span class="brand-mark chef-mark">C</span><span>CodeChef</span></div>
+          <div class="coding-result"><strong>1 star</strong><small>Rating 909</small></div>
+          <svg class="icon"><use href="#i-arrow"></use></svg>
+        </a>
+      </div>
+      <p class="profile-note">Platform links currently open the platform homepages. Replace them with your individual profile URLs before publishing.</p>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="section page-wrap" id="journey">
+      <div class="section-top reveal">
+        <span class="section-number">05 / JOURNEY</span>
+        <span class="section-aside">EDUCATION & FOUNDATION</span>
+      </div>
+      <div class="section-heading reveal">
+        <p class="eyebrow">WHERE IT ALL STARTED</p>
+        <h2>The learning <span>journey.</span></h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-marker"><svg class="icon"><use href="#i-graduation"></use></svg></div>
+          <div class="timeline-content">
+            <div class="timeline-top"><span>2024 — PRESENT</span><span class="current-label">CURRENT</span></div>
+            <h3>Vignan University</h3>
+            <p>B.Tech — Computer Science and Engineering</p>
+            <div class="cgpa-box"><small>CURRENT CGPA</small><strong>7.02</strong><span>/ 10</span></div>
+            <div class="timeline-foot"><svg class="icon"><use href="#i-location"></use></svg> Vadlamudi, Guntur, Andhra Pradesh</div>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-marker"><svg class="icon"><use href="#i-graduation"></use></svg></div>
+          <div class="timeline-content">
+            <div class="timeline-top"><span>INTERMEDIATE</span></div>
+            <h3>Sri Chaitanya Junior College</h3>
+            <p>Vijayawada</p>
+            <div class="score-line"><strong>92%</strong><span>Academic score</span></div>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-marker"><svg class="icon"><use href="#i-graduation"></use></svg></div>
+          <div class="timeline-content">
+            <div class="timeline-top"><span>SECONDARY SCHOOL</span></div>
+            <h3>Sri Chaitanya Reddy Palem Residential Campus</h3>
+            <p>Guntur</p>
+            <div class="score-line"><strong>89%</strong><span>534 / 600 marks</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section page-wrap" id="contact">
+      <div class="contact-backdrop"></div>
+      <div class="contact-inner reveal">
+        <p class="eyebrow">HAVE SOMETHING IN MIND?</p>
+        <h2>Let's make<br><span>something meaningful.</span></h2>
+        <p>Open to connecting, collaborating, learning, and exploring opportunities in software development.</p>
+        <a href="mailto:vu.241fa04651@gmail.com" class="button button-light">Start a conversation <svg class="icon"><use href="#i-arrow"></use></svg></a>
+        <div class="contact-details">
+          <a href="mailto:vu.241fa04651@gmail.com"><svg class="icon"><use href="#i-mail"></use></svg> vu.241fa04651@gmail.com</a>
+          <a href="https://www.linkedin.com/in/mahathi-panguluri-chowdary-679606323?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener"><svg class="icon"><use href="#i-linkedin"></use></svg> LinkedIn</a>
+          <a href="https://github.com/Mahathi651" target="_blank" rel="noopener"><svg class="icon"><use href="#i-github"></use></svg> GitHub</a>
+        </div>
+      </div>
+      <div class="contact-stamp">LET'S<br>BUILD <span>✳</span></div>
+    </section>
+  </main>
+
+  <footer class="footer page-wrap">
+    <a href="#home" class="brand">mahathi<span>.</span></a>
+    <p>Designed with intention. Built with curiosity.</p>
+    <a href="#home" class="footer-top">BACK TO TOP ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
